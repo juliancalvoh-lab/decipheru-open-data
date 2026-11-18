@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "DecipherU open data: licensing exam facts and cost and time to get licensed"
+type: dataset
+authors:
+  - name: "DecipherU Editorial"
+    website: "https://decipheru.com/editorial-policy"
+license: CC-BY-4.0
+url: "https://decipheru.com/data"
+repository-code: "https://github.com/juliancalvoh-lab/decipheru-open-data"
+abstract: "Two open datasets with a source and a date on every row: exam facts (questions, time, passing standard, fee, retake rule) and cost and time to get licensed by state and license. A value we have not confirmed is left blank, never filled in."
+keywords: [licensing, exams, cybersecurity, mortgage, insurance, open data]

@@ -1,0 +1,1935 @@
+{
+  "name": "Cost and time to get licensed, by state and license",
+  "description": "Exam, application and first-license fees, the required training hours, a time in months only where the owner states one, minimum age and the criminal record policy, for each license and certification DecipherU covers, by state where the board sets its own rules. Only verified fields appear; a blank means not verified, never zero.",
+  "license": "CC-BY-4.0",
+  "cite_as": "DecipherU. (2026). Cost and time to get licensed, by state and license [Data set]. https://decipheru.com/data/licensing-costs",
+  "url": "https://decipheru.com/data/licensing-costs",
+  "last_updated": "2026-11-05",
+  "fields": {
+    "months_owner_stated": "A duration the owner states, such as a permit holding period or a BLS ceiling. Blank when no owner states one. We do not convert required hours into months; use hours_required.",
+    "fees_usd": "Exam, application and first-license fees the board or owner lists, in US dollars. Fingerprinting or a credit report is counted only where source_note says so and names the price. Leaves out courses, tuition, state-added fees and renewal.",
+    "min_age": "Minimum age in years where the board or owner states one.",
+    "criminal_record_policy": "review (the board decides case by case) or restricted, only where a board page says so. Blank means no rule was verified, not that none exists.",
+    "hours_required": "Hours of instruction (or supervised work, see hours_kind) the board or owner page states, as a number. Blank when the page gives none or gives a condition. Compared across states only for the same kind.",
+    "as_of": "The date the entry was last checked against its sources."
+  },
+  "rows": [
+    {
+      "credential_slug": "aws-ai-practitioner",
+      "credential": "AWS Certified AI Practitioner",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 100,
+      "as_of": "2026-10-12",
+      "source_note": "AWS certification page, read 2026-10-12: exam price 100 USD, with exchange rates and other costs possibly extra. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "AWS Certified AI Practitioner page",
+          "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "aws-ml-engineer-associate",
+      "credential": "AWS Certified Machine Learning Engineer - Associate",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 75,
+      "as_of": "2026-10-12",
+      "source_note": "AWS certification page, read 2026-10-12: the updated MLA-C02 exam is in beta at $75. The earlier MLA-C01 exam is $150 and was available in English through September 28, 2026. The regular price of MLA-C02 after beta is not published. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "AWS Certified Machine Learning Engineer - Associate page",
+          "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "aws-security-specialty",
+      "credential": "AWS Certified Security - Specialty",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 300,
+      "as_of": "2026-10-12",
+      "source_note": "AWS certification page, read 2026-10-12: exam price 300 USD, with exchange rates and other costs possibly extra. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "AWS Certified Security - Specialty page",
+          "url": "https://aws.amazon.com/certification/certified-security-specialty/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "barber",
+      "credential": "Barber license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "as_of": "2026-10-12",
+      "source_note": "Age 17 in TX, CA and NY. Record policy is individual review where the board page states it (TX, CA). Florida and New York barber hours were not verified.",
+      "sources": [
+        {
+          "name": "Arizona Board of Barbers fees",
+          "url": "https://bcb.az.gov/resources/fees",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Kansas Board of Barbering",
+          "url": "https://kbob.kansas.gov/?p=83",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Texas TDLR, apply for a Class A barber license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-barber.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, barber (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/701",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, barber application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/barber_app.pdf",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "New York Department of State, become a barber",
+          "url": "https://dos.ny.gov/become-barber",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "barber",
+      "credential": "Barber license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "fees_usd": 125,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 1000,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: the Board application form lists $125 non-refundable for examination and initial license (barbercosmo.ca.gov forms). Age 17 (statute on license requirements page). The Board denies under Business and Professions Code section 480 (barbercosmo.ca.gov license requirements page).",
+      "sources": [
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, barber application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/barber_app.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "barber",
+      "credential": "Barber license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "fees_usd": 55,
+      "min_age": 17,
+      "as_of": "2026-10-15",
+      "source_note": "Fees: $40 original application plus $15 written exam plus $15 practical exam = $70 (DOS cosmetology fee pages, same schedule). Age 17 (DOS Become a Barber page). The DOS barber page does not state course hours; they depend on the approved school, so months is left empty. Correction 2026-10-15: the DOS barber page lists a $15 practical exam fee and no written exam fee, so the total is $40 application plus $15 practical = $55.",
+      "sources": [
+        {
+          "name": "New York Department of State, become a barber",
+          "url": "https://dos.ny.gov/become-barber",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "barber",
+      "credential": "Barber license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 181,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 1000,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-barber.htm",
+      "as_of": "2026-10-15",
+      "source_note": "Age 17 and TDLR requires a Criminal History Questionnaire from anyone convicted and decides case by case under its guidelines for applicants with criminal convictions (TDLR apply page). The $50 application fee is set by TDLR; the written and practical exam fees go to the vendor PSI. Fee total, read 2026-10-15: $50 TDLR application plus $55 PSI written exam plus $76 PSI practical exam = $181, one attempt of each exam (PSI bulletin dated January 1, 2026).",
+      "sources": [
+        {
+          "name": "Texas TDLR, apply for a Class A barber license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-barber.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, barber (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/701",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "food-protection-manager",
+      "credential": "Certified Food Protection Manager",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 99,
+      "as_of": "2026-10-11",
+      "source_note": "ServSafe Manager exam with online proctoring is listed at $99.00; the exam alone with an access code is listed at $38.99 and needs a proctor. Certification is valid for five years. Rules and approved exams vary by state and county.",
+      "sources": [
+        {
+          "name": "ServSafe Manager exam, online proctor",
+          "url": "https://www.servsafe.com/access/SS/catalog/ProductDetail/SSONLINEXREM",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nurse-aide",
+      "credential": "Certified nurse aide (NNAAP written exam)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "hours_required": 75,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.law.cornell.edu/cfr/text/42/483.152",
+      "as_of": "2026-10-12",
+      "source_note": "States may require more hours and set their own exam fees and background check rules (BLS says some states require a criminal background check), so record policy stays unknown.",
+      "sources": [
+        {
+          "name": "LeadingAge, CMS nurse aide training requirements",
+          "url": "https://leadingage.org/cms-clarifies-nurse-aide-training-requirements/",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Credentia North Carolina exam fees",
+          "url": "https://kb-ncna.credentia.com/en/article/exam-fees",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "securities-series-66",
+      "credential": "Combined state law (Series 66)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 177,
+      "as_of": "2026-10-11",
+      "source_note": "NASAA exam FAQ and the FINRA Series 66 page list $177. A state registration fee is extra.",
+      "sources": [
+        {
+          "name": "FINRA Series 66",
+          "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series66",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "NASAA exam FAQs",
+          "url": "https://www.nasaa.org/exams/exam-faqs/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "commercial-drivers-license",
+      "credential": "Commercial driver's license (CDL)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "months_owner_stated": 1,
+      "criminal_record_policy": "restricted",
+      "as_of": "2026-10-12",
+      "source_note": "Months: 49 CFR 383.25(e) bars the CDL skills test for the first 14 days after the commercial learner's permit is issued; 14 days is 0.5 months, rounded up to 1 as a floor because entry-level driver training and test scheduling add time. Record: 49 CFR 383.51 disqualifies drivers for listed offenses (drug or alcohol impairment, felony use of a vehicle, leaving an accident, and others; some for life), so restricted by offense type, not a blanket bar.",
+      "sources": [
+        {
+          "name": "FMCSA age requirement for interstate commerce",
+          "url": "https://www.fmcsa.dot.gov/faq/what-age-requirement-operating-cmv-interstate-commerce",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "FMCSA entry-level driver training",
+          "url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/entry-level-driver-training-eldt",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "cosmetology",
+      "credential": "Cosmetology license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "as_of": "2026-10-12",
+      "source_note": "Minimum age is 17 in TX, CA and NY and 16 in FL, median 17. Record policy is individual review where the board page states it (TX, CA). Fees differ and one state's exam fee was not found, so no US fee is given.",
+      "sources": [
+        {
+          "name": "Arizona Board of Cosmetology fees",
+          "url": "https://bcb.az.gov/resources/fees",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Illinois IDFPR exam fee list (cosmetology $200)",
+          "url": "https://idfpr.illinois.gov/profs/nailtech.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Texas TDLR, apply for a cosmetology operator license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, cosmetology operator (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/703",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, cosmetologist application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/cosmetologist_app.pdf",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "New York Department of State, become a cosmetologist",
+          "url": "https://dos.ny.gov/become-cosmetologist",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Florida DBPR, cosmetology licensing FAQs",
+          "url": "https://www2.myfloridalicense.com/cosmetology/faqs/",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Florida DBPR, cosmetologist application COSMO 1",
+          "url": "https://www2.myfloridalicense.com/pro/cosmo/documents/COSMO1_Initial_License_Based_on_Florida_Education.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "cosmetology",
+      "credential": "Cosmetology license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "fees_usd": 125,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 1000,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: the Board application form lists $125 non-refundable for examination and initial license (barbercosmo.ca.gov forms). Age 17 (statute on license requirements page). The Board denies under Business and Professions Code section 480 (barbercosmo.ca.gov license requirements page).",
+      "sources": [
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, cosmetologist application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/cosmetologist_app.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "cosmetology",
+      "credential": "Cosmetology license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "FL",
+      "jurisdiction_name": "Florida",
+      "scope": "state",
+      "min_age": 16,
+      "hours_required": 1200,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www2.myfloridalicense.com/cosmetology/faqs/",
+      "as_of": "2026-10-15",
+      "source_note": "Age: applicant must be at least 16 or hold a high school diploma. Exam and application fee total not verified (DBPR lists $45 for the exam application form; the Pearson VUE exam fee was not found).",
+      "sources": [
+        {
+          "name": "Florida DBPR, cosmetology licensing FAQs",
+          "url": "https://www2.myfloridalicense.com/cosmetology/faqs/",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Florida DBPR, cosmetologist application COSMO 1",
+          "url": "https://www2.myfloridalicense.com/pro/cosmo/documents/COSMO1_Initial_License_Based_on_Florida_Education.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "cosmetology",
+      "credential": "Cosmetology license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "fees_usd": 70,
+      "min_age": 17,
+      "hours_required": 1000,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://dos.ny.gov/become-cosmetologist",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: $40 original application plus $15 written exam plus $15 practical exam = $70 (DOS page). Age 17. Record policy not verified.",
+      "sources": [
+        {
+          "name": "New York Department of State, become a cosmetologist",
+          "url": "https://dos.ny.gov/become-cosmetologist",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "cosmetology",
+      "credential": "Cosmetology license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 181,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 1000,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm",
+      "as_of": "2026-10-15",
+      "source_note": "Age 17 and TDLR requires a Criminal History Questionnaire from anyone convicted and decides case by case under its guidelines for applicants with criminal convictions (TDLR apply page). The $50 application fee is set by TDLR; the written and practical exam fees go to the vendor PSI. Fee total, read 2026-10-15: $50 TDLR application plus $55 PSI written exam plus $76 PSI practical exam = $181, one attempt of each exam (PSI bulletin dated January 1, 2026).",
+      "sources": [
+        {
+          "name": "Texas TDLR, apply for a cosmetology operator license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, cosmetology operator (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/703",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "drivers-permit",
+      "credential": "Driver license knowledge test",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "months_owner_stated": 6,
+      "min_age": 15.25,
+      "as_of": "2026-10-12",
+      "source_note": "Months is the shortest path for an applicant under 18 (the minimum permit holding period set by the state); adults can finish faster. Median of the served states: CA 6, TX 6, NY 6, FL 12 months = 6. Learner age is 15 in TX and FL, 15.5 in CA and 16 in NY, median 15.25. Each state sets its own rules, so check the state entry.",
+      "sources": [
+        {
+          "name": "California DMV instruction permits",
+          "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/instruction-permits/",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Texas DPS learner license",
+          "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Florida FLHSMV teen licensing",
+          "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "New York DMV learner permit",
+          "url": "https://dmv.ny.gov/driver-license/get-learner-permit",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "drivers-permit",
+      "credential": "Driver license knowledge test",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "months_owner_stated": 6,
+      "as_of": "2026-10-12",
+      "source_note": "Months is the shortest path for an applicant under 18 (the minimum permit holding period set by the state); adults can finish faster. California DMV: hold an instruction permit for at least 6 months (or turn 18) before the behind-the-wheel test; 50 hours of supervised practice and 6 hours with a driving school. Application fee amount was not shown on the pages read.",
+      "sources": [
+        {
+          "name": "California DMV instruction permits",
+          "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/instruction-permits/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "drivers-permit",
+      "credential": "Driver license knowledge test",
+      "credential_type": "license",
+      "jurisdiction": "FL",
+      "jurisdiction_name": "Florida",
+      "scope": "state",
+      "months_owner_stated": 12,
+      "as_of": "2026-10-12",
+      "source_note": "Months is the shortest path for an applicant under 18 (the minimum permit holding period set by the state); adults can finish faster. Florida FLHSMV: the learner's license must be held at least 12 months or until age 18; 50 hours of supervised driving, 10 at night.",
+      "sources": [
+        {
+          "name": "Florida FLHSMV teen licensing",
+          "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "drivers-permit",
+      "credential": "Driver license knowledge test",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "months_owner_stated": 6,
+      "as_of": "2026-10-12",
+      "source_note": "Months is the shortest path for an applicant under 18 (the minimum permit holding period set by the state); adults can finish faster. New York DMV driver's manual: the junior permit is held in valid status at least six months before the road test; 50 hours of supervised driving, 15 after dark; 5-hour pre-licensing course.",
+      "sources": [
+        {
+          "name": "New York DMV learner permit",
+          "url": "https://dmv.ny.gov/driver-license/get-learner-permit",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "drivers-permit",
+      "credential": "Driver license knowledge test",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "months_owner_stated": 6,
+      "as_of": "2026-10-12",
+      "source_note": "Months is the shortest path for an applicant under 18 (the minimum permit holding period set by the state); adults can finish faster. Texas DPS: the learner license must be held for at least six months; provisional license needs 30 hours of supervised driving and the driver education course (24 classroom hours).",
+      "sources": [
+        {
+          "name": "Texas DPS learner license",
+          "url": "https://www.dps.texas.gov/section/driver-license/texas-learners-license-teen",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "ceh",
+      "credential": "EC-Council Certified Ethical Hacker (CEH)",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 1050,
+      "as_of": "2026-10-12",
+      "source_note": "EC-Council eligibility page, read 2026-10-12: exam voucher $950 online proctored or $1,199 at Pearson VUE, plus a $100 application fee without official training. The figure here is the lowest path, $950 plus $100. Training is extra. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "EC-Council voucher prices and eligibility",
+          "url": "https://cert.eccouncil.org/application-process-eligibility.html?id=ceh",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "EC-Council CEH page",
+          "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "emt",
+      "credential": "Emergency medical technician (NREMT EMT)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "months_owner_stated": 12,
+      "as_of": "2026-10-12",
+      "source_note": "Months: BLS says EMT-Basic programs typically take less than 1 year, so 12 is an upper bound, not an average. BLS says states may set a minimum age and a background check; no national age is published.",
+      "sources": [
+        {
+          "name": "NREMT EMR and EMT certification examinations",
+          "url": "https://www.nremt.org/Pages/Examinations/EMR-and-EMT-Certification-Examinations",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "esthetician",
+      "credential": "Esthetician license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "as_of": "2026-10-12",
+      "source_note": "Age 17 in all three. Record policy is individual review where the board page states it (TX, CA). Florida facial specialist hours were not verified.",
+      "sources": [
+        {
+          "name": "Illinois IDFPR esthetics, exam fee list",
+          "url": "https://idfpr.illinois.gov/profs/esthetics.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Texas TDLR, apply for an esthetician license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-esthetician.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, esthetician (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/715",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, esthetician application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/esthetician_app.pdf",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "New York Department of State, become an esthetician",
+          "url": "https://dos.ny.gov/become-esthetician",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "esthetician",
+      "credential": "Esthetician license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "fees_usd": 115,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 600,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: the Board application form lists $115 non-refundable for examination and initial license (barbercosmo.ca.gov forms). Age 17 (statute on license requirements page). The Board denies under Business and Professions Code section 480 (barbercosmo.ca.gov license requirements page).",
+      "sources": [
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, esthetician application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/esthetician_app.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "esthetician",
+      "credential": "Esthetician license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "fees_usd": 70,
+      "min_age": 17,
+      "hours_required": 600,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://dos.ny.gov/become-esthetician",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: $40 original application plus $15 written exam plus $15 practical exam = $70 (DOS page). Age 17. Record policy not verified.",
+      "sources": [
+        {
+          "name": "New York Department of State, become an esthetician",
+          "url": "https://dos.ny.gov/become-esthetician",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "esthetician",
+      "credential": "Esthetician license (NIC theory exam)",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 181,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 750,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-esthetician.htm",
+      "as_of": "2026-10-15",
+      "source_note": "Age 17 and TDLR requires a Criminal History Questionnaire from anyone convicted and decides case by case under its guidelines for applicants with criminal convictions (TDLR apply page). The $50 application fee is set by TDLR; the written and practical exam fees go to the vendor PSI. Fee total, read 2026-10-15: $50 TDLR application plus $55 PSI written exam plus $76 PSI practical exam = $181, one attempt of each exam (PSI bulletin dated January 1, 2026).",
+      "sources": [
+        {
+          "name": "Texas TDLR, apply for an esthetician license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-esthetician.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, esthetician (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/715",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "securities-series-7",
+      "credential": "General securities representative (FINRA Series 7)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 395,
+      "as_of": "2026-10-11",
+      "source_note": "FINRA Series 7 page: $395 exam fee. A FINRA member firm must sponsor the candidate. The SIE ($100) is a corequisite and is not included here.",
+      "sources": [
+        {
+          "name": "FINRA Series 7",
+          "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series7",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "iapp-aigp",
+      "credential": "IAPP AI Governance Professional (AIGP)",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 799,
+      "as_of": "2026-10-12",
+      "source_note": "IAPP store, read 2026-10-12: exam $799 for non-members ($649 for members), with the first maintenance fee included for non-members. Recertification is $250. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "IAPP AIGP exam store page",
+          "url": "https://store.iapp.org/aigp-exam/",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "IAPP AIGP page",
+          "url": "https://iapp.org/certify/aigp/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "securities-series-65",
+      "credential": "Investment adviser law (Series 65)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 187,
+      "as_of": "2026-10-11",
+      "source_note": "NASAA exam FAQ and Series 65 content outline list $187. FINRA delivers the exam for NASAA. A state registration fee is extra.",
+      "sources": [
+        {
+          "name": "NASAA Series 65 exam content outline",
+          "url": "https://www.nasaa.org/exams/general-exam-information/series-65-exam-content-outline/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "ccsp",
+      "credential": "ISC2 CCSP",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 599,
+      "as_of": "2026-09-26",
+      "source_note": "DecipherU exam data lists the exam at $599, checked 2026-09-26. The ISC2 pages read on 2026-10-12 give no exam price, so it was not re-confirmed. ISC2 lists a $135 annual maintenance fee for members. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "ISC2 CCSP page",
+          "url": "https://www.isc2.org/certifications/ccsp",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "ISC2 CCSP exam outline",
+          "url": "https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "ISC2 annual maintenance fees",
+          "url": "https://www.isc2.org/policies-procedures/amfs-overview",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "isc2-cc",
+      "credential": "ISC2 Certified in Cybersecurity (CC)",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 199,
+      "as_of": "2026-10-12",
+      "source_note": "ISC2 states the CC exam fee is $199 (page read 2026-10-12, no page date). Passing candidates pay a $50 annual maintenance fee. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "ISC2 Certified in Cybersecurity page",
+          "url": "https://www.isc2.org/certifications/cc",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "ISC2 CC exam fee statement",
+          "url": "https://www.isc2.org/landing/1mcc",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "ISC2 annual maintenance fees",
+          "url": "https://www.isc2.org/policies-procedures/amfs-overview",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "cissp",
+      "credential": "ISC2 CISSP",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 749,
+      "as_of": "2026-09-26",
+      "source_note": "DecipherU exam data lists the exam at $749, checked 2026-09-26. The ISC2 pages read on 2026-10-12 give no exam price, so it was not re-confirmed. ISC2 lists a $135 annual maintenance fee for members holding the CISSP. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "ISC2 CISSP page",
+          "url": "https://www.isc2.org/certifications/cissp",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "ISC2 CISSP exam outline",
+          "url": "https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "ISC2 annual maintenance fees",
+          "url": "https://www.isc2.org/policies-procedures/amfs-overview",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "electrician-journeyman",
+      "credential": "Journeyman electrician license",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 108,
+      "criminal_record_policy": "review",
+      "as_of": "2026-10-11",
+      "source_note": "TDLR journeyman electrician: 8,000 hours of supervised work, $30 application fee, $78 PSI exam fee. TDLR reviews criminal convictions case by case and may deny a license.",
+      "sources": [
+        {
+          "name": "Texas TDLR journeyman electrician application",
+          "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Texas TDLR electrician candidate information bulletin",
+          "url": "https://www.tdlr.texas.gov/electricians/pdf/Candidate-Information-Bulletin.pdf",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "counseling-nce",
+      "credential": "Licensed professional counselor (NCE)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 195,
+      "as_of": "2026-10-11",
+      "source_note": "NBCC NCE registration form lists $195 ($100 for active NCCs). Some states set a different fee through a state supplement (for example $275 in Ohio, Oregon and New Jersey). Master's degree and supervised hours are separate.",
+      "sources": [
+        {
+          "name": "NBCC NCE registration form",
+          "url": "https://nbcc.org/Assets/RegistrationForm/NCERegistrationForm.pdf",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-life-health",
+      "credential": "Life and health insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "fees_usd": 317,
+      "as_of": "2026-10-18",
+      "source_note": "Fees: CDI schedule effective March 3, 2019 lists $188 filing fee and $55 examination fee for Life and Accident and Health agents; Capital Live Scan fingerprinting is $74 (PSI Candidate Information Bulletin, March 2026) = $317. A PSI test site adds a $43 convenience fee (same bulletin) and may charge a different exam price, so treat 317 as the low end. Courses are not included. Age, months and record policy not verified for California.",
+      "sources": [
+        {
+          "name": "California Department of Insurance, life agent requirements",
+          "url": "https://www.insurance.ca.gov/0200-industry/0050-renew-license/0200-requirements/life-agent/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-life-health",
+      "credential": "Life and health insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "FL",
+      "jurisdiction_name": "Florida",
+      "scope": "state",
+      "fees_usd": 151.5,
+      "min_age": 18,
+      "as_of": "2026-11-05",
+      "source_note": "Fees: $44 state exam fee paid to the exam vendor (listed as of October 1, 2018), $50 license application, $5 license identification and $52.50 fingerprints paid to the fingerprinting vendor (Florida DFS fees and payment methods, read 2026-11-05) = $151.50. The DFS page lists one state exam fee and does not split it by line, so 151.50 assumes one sitting. The prelicensing course, the $60 appointment fee and continuing education are not included. Age: Florida 2-15 requirements sheet, step 1, natural person at least 18 and a Florida resident. Months not verified for Florida: the 2-15 sheet states a 60-hour approved course (or 30 hours life plus the health route) but no page we read states how long licensing takes, so no month count is given.",
+      "sources": [
+        {
+          "name": "Florida Department of Financial Services, agent license fees",
+          "url": "https://www.myfloridacfo.com/division/agents/licensing/agents-and-adjusters/fees",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Florida Department of Financial Services, insurance license qualifications",
+          "url": "https://myfloridacfo.com/division/agents/licensing/agents-and-adjusters/qualifications",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-life-health",
+      "credential": "Life and health insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "hours_required": 40,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.dfs.ny.gov/apps_and_licensing/agents_and_brokers/lic_app_la_lb",
+      "as_of": "2026-10-15",
+      "source_note": "License fee is $80 for a New York resident (DFS page); the PSI exam fee was not found, so no total is given.",
+      "sources": [
+        {
+          "name": "New York DFS, life, accident and health agent licensing",
+          "url": "https://www.dfs.ny.gov/apps_and_licensing/agents_and_brokers/lic_app_la_lb",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-life-health",
+      "credential": "Life and health insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 99,
+      "min_age": 18,
+      "as_of": "2026-10-18",
+      "source_note": "Fees: $49 General Lines Life, Accident and Health exam (Texas Insurance Licensing Candidate Handbook, Oct 2024, exam fee table) plus $50 application fee (TDI general lines life, accident, health and HMO page) = $99. Fingerprints through IdentoGO are extra and the price was not verified; courses are not included. Age: the same handbook says candidates must be at least 18 before the exam. Months and record policy not verified for Texas.",
+      "sources": [
+        {
+          "name": "Texas Department of Insurance, general lines life, accident and health application",
+          "url": "https://www.tdi.texas.gov/agent/general-life-apply.html",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "massage-therapy-mblex",
+      "credential": "Massage therapist license (MBLEx)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 265,
+      "as_of": "2026-10-11",
+      "source_note": "FSMTB lists the MBLEx fee at $265. The application needs education verification from an approved massage therapy school. State license fees, school tuition and hours vary by state.",
+      "sources": [
+        {
+          "name": "FSMTB MBLEx FAQs",
+          "url": "https://fsmtb.org/mblex-faqs/",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "FSMTB MBLEx requirements and process",
+          "url": "https://fsmtb.org/mblex-process-requirements-2/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "azure-ai-engineer",
+      "credential": "Microsoft Azure AI Apps and Agents Developer (AI-103)",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 165,
+      "as_of": "2026-10-12",
+      "source_note": "Microsoft's exam FAQ, read 2026-10-12, says associate and expert exams typically cost US$165, set by country. The AI-103 page shows the price only by country, so this is the typical US figure, not a quote for this exam. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "Microsoft exam FAQ (pricing)",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/frequently-asked-questions",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "Microsoft AI-103 exam page",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "sc-500",
+      "credential": "Microsoft SC-500 Cloud and AI Security Engineer",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 165,
+      "as_of": "2026-10-12",
+      "source_note": "Microsoft's exam FAQ, read 2026-10-12, says associate and expert exams typically cost US$165, set by country. Microsoft's exam pages show the price only by country, so this is the typical US figure, not a quote for this exam. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "Microsoft exam FAQ (pricing)",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/frequently-asked-questions",
+          "retrieved": "2026-10-12"
+        },
+        {
+          "name": "Microsoft SC-500 study guide",
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "mortgage-loan-originator",
+      "credential": "Mortgage loan originator license (SAFE MLO Test)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 196.25,
+      "hours_required": 20,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.law.cornell.edu/uscode/text/12/5104",
+      "as_of": "2026-11-05",
+      "source_note": "Fees: $110 SAFE MLO Test, $35 NMLS processing, $36.25 fingerprints (live scan) and $15 credit report (NMLS processing fees page and MLO testing handbook, read 2026-11-05) = $196.25. The 20-hour course and any state fee are not included. Minimum age is not set in the federal statute, so it stays empty.",
+      "sources": [
+        {
+          "name": "NMLS SAFE MLO testing FAQ",
+          "url": "https://mortgage.nationwidelicensingsystem.org/knowledge/products/nmls/pubs/testingHbk/education/mlo_testing/mlo_test_faq/mlo_testing_hbk_FAQ.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "NMLS Resource Center, NMLS processing fees",
+          "url": "https://mortgage.nationwidelicensingsystem.org/knowledge/products/nmls/pubs/aboutNMLS/reference/aboutNMLS/maps/topics/aboutNMLS_processingFees-1.html",
+          "retrieved": "2026-11-05"
+        },
+        {
+          "name": "NMLS Resource Center, MLO Testing Handbook: SAFE MLO Test format and fee",
+          "url": "https://mortgage.nationwidelicensingsystem.org/knowledge/Products/nmls/pubs/testingHbk/education/mlo_testing/mlo_test_guide/mlo_testing_hbk_intro-1.html",
+          "retrieved": "2026-11-05"
+        },
+        {
+          "name": "12 U.S.C. 5104, SAFE Act license requirements",
+          "url": "https://www.law.cornell.edu/uscode/text/12/5104",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nail-technician",
+      "credential": "Nail technician license (NIC theory)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "as_of": "2026-10-12",
+      "source_note": "Age 17 in TX, CA and NY. Record policy is individual review where the board page states it (TX, CA).",
+      "sources": [
+        {
+          "name": "Illinois IDFPR nail technology, exam fee list",
+          "url": "https://idfpr.illinois.gov/profs/nailtech.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Arizona Board of Cosmetology exam information",
+          "url": "https://bcb.az.gov/resources/testing",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Texas TDLR, apply for a manicurist license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-manicurist.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, manicurist (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/713",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, manicurist application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/manicurist_app.pdf",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "New York Department of State, get a nail specialty license",
+          "url": "https://dos.ny.gov/get-nail-specialty-license",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Florida DBPR, cosmetology licensing FAQs",
+          "url": "https://www2.myfloridalicense.com/cosmetology/faqs/",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Florida DBPR, cosmetologist application COSMO 1",
+          "url": "https://www2.myfloridalicense.com/pro/cosmo/documents/COSMO1_Initial_License_Based_on_Florida_Education.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nail-technician",
+      "credential": "Nail technician license (NIC theory)",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "fees_usd": 110,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 400,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: the Board application form lists $110 non-refundable for examination and initial license (barbercosmo.ca.gov forms). Age 17 (statute on license requirements page). The Board denies under Business and Professions Code section 480 (barbercosmo.ca.gov license requirements page).",
+      "sources": [
+        {
+          "name": "California Board of Barbering and Cosmetology, license requirements",
+          "url": "https://www.barbercosmo.ca.gov/applicants/license_requirements.shtml",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "California Board of Barbering and Cosmetology, manicurist application and fee",
+          "url": "https://www.barbercosmo.ca.gov/forms_pubs/forms/manicurist_app.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nail-technician",
+      "credential": "Nail technician license (NIC theory)",
+      "credential_type": "license",
+      "jurisdiction": "FL",
+      "jurisdiction_name": "Florida",
+      "scope": "state",
+      "min_age": 16,
+      "hours_required": 180,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www2.myfloridalicense.com/cosmetology/faqs/",
+      "as_of": "2026-10-15",
+      "source_note": "Fee and age not verified. Age 16 or a high school diploma, from the DBPR COSMO 1 form (read 2026-10-15).",
+      "sources": [
+        {
+          "name": "Florida DBPR, cosmetology licensing FAQs",
+          "url": "https://www2.myfloridalicense.com/cosmetology/faqs/",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Florida DBPR, cosmetologist application COSMO 1",
+          "url": "https://www2.myfloridalicense.com/pro/cosmo/documents/COSMO1_Initial_License_Based_on_Florida_Education.pdf",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nail-technician",
+      "credential": "Nail technician license (NIC theory)",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "fees_usd": 70,
+      "min_age": 17,
+      "hours_required": 250,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://dos.ny.gov/get-nail-specialty-license",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: $40 original application plus $15 written exam plus $15 practical exam = $70 (DOS page). Age 17. Record policy not verified.",
+      "sources": [
+        {
+          "name": "New York Department of State, get a nail specialty license",
+          "url": "https://dos.ny.gov/get-nail-specialty-license",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nail-technician",
+      "credential": "Nail technician license (NIC theory)",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 181,
+      "min_age": 17,
+      "criminal_record_policy": "review",
+      "hours_required": 600,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-manicurist.htm",
+      "as_of": "2026-10-15",
+      "source_note": "Age 17 and TDLR requires a Criminal History Questionnaire from anyone convicted and decides case by case under its guidelines for applicants with criminal convictions (TDLR apply page). The $50 application fee is set by TDLR; the written and practical exam fees go to the vendor PSI. Fee total, read 2026-10-15: $50 TDLR application plus $55 PSI written exam plus $76 PSI practical exam = $181, one attempt of each exam (PSI bulletin dated January 1, 2026).",
+      "sources": [
+        {
+          "name": "Texas TDLR, apply for a manicurist license",
+          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-manicurist.htm",
+          "retrieved": "2026-10-15"
+        },
+        {
+          "name": "Texas TDLR exam bulletin from PSI, manicurist (exam fees)",
+          "url": "https://test-takers.psiexams.com/api/content/bulletin/713",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "nvidia-nca-genl",
+      "credential": "NVIDIA-Certified Associate: Generative AI LLMs",
+      "credential_type": "certification",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (owner's price)",
+      "scope": "owner",
+      "fees_usd": 125,
+      "as_of": "2026-10-12",
+      "source_note": "NVIDIA certification page, read 2026-10-12: exam price $125. DecipherU's own exam data listed $135, which the page no longer supports. Fees are the exam (and application) price only; they leave out training, study material, retakes and renewal. Study time varies by person, so no month count is given. No criminal-record rule was found on the pages read.",
+      "sources": [
+        {
+          "name": "NVIDIA NCA-GENL page",
+          "url": "https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/",
+          "retrieved": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "credential_slug": "pharmacy-technician",
+      "credential": "Pharmacy technician certification (PTCE)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "months_owner_stated": 12,
+      "as_of": "2026-10-12",
+      "source_note": "Months: BLS Occupational Outlook Handbook says many pharmacy technician programs award a certificate after 1 year or less, so 12 is an upper bound, not an average.",
+      "sources": [
+        {
+          "name": "PTCB Certified Pharmacy Technician",
+          "url": "https://ptcb.org/credentials/certification/certified-pharmacy-technician/",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "PTCB guidebook, general application information",
+          "url": "https://myaccount.ptcb.org/guidebook/guidebook_sections/view/general-application-information",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "praxis-core",
+      "credential": "Praxis Core Academic Skills for Educators",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 150,
+      "as_of": "2026-10-11",
+      "source_note": "ETS lists the combined Core test (5752, all three subtests) at $150. Math and Writing are listed at $90 each when taken alone. Teaching program tuition and state licensing fees are not included. Requirements differ by state and program.",
+      "sources": [
+        {
+          "name": "ETS Praxis Core combined test",
+          "url": "https://praxis.ets.org/test/core-combined-subtests-5752.html",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-property-casualty",
+      "credential": "Property and casualty insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "fees_usd": 317,
+      "as_of": "2026-10-18",
+      "source_note": "Fees: CDI schedule effective March 3, 2019 lists $188 filing and $55 examination for the Property and Casualty Broker-Agent; Capital Live Scan fingerprinting is $74 (PSI bulletin, March 2026) = $317. A PSI test site adds a $43 convenience fee, so 317 is the low end. Courses are not included.",
+      "sources": [
+        {
+          "name": "California Department of Insurance, life agent requirements",
+          "url": "https://www.insurance.ca.gov/0200-industry/0050-renew-license/0200-requirements/life-agent/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-property-casualty",
+      "credential": "Property and casualty insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "FL",
+      "jurisdiction_name": "Florida",
+      "scope": "state",
+      "fees_usd": 151.5,
+      "min_age": 18,
+      "as_of": "2026-11-05",
+      "source_note": "Fees: $44 General Lines exam fee paid to Pearson VUE, $50 license application, $5 license identification and $52.50 fingerprints paid to the fingerprinting vendor (Florida DFS fees and payment methods, read 2026-11-05) = $151.50. The 200-hour pre-licensing course is not included. Age: DFS 2-20 requirements sheet, step 1, at least 18 and a Florida resident. Months and record policy not verified for Florida.",
+      "sources": [
+        {
+          "name": "Florida Department of Financial Services, agent license fees",
+          "url": "https://www.myfloridacfo.com/division/agents/licensing/agents-and-adjusters/fees",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "insurance-property-casualty",
+      "credential": "Property and casualty insurance agent license",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "fees_usd": 99,
+      "min_age": 18,
+      "as_of": "2026-10-18",
+      "source_note": "Fees: $49 General Lines Property and Casualty exam (Texas Insurance Licensing Candidate Handbook, Oct 2024) plus $50 license application fee (handbook, Application Fees) = $99. Fingerprints through IdentoGO are extra and not priced here; courses are not included. Age 18 per the handbook. Months and record policy not verified for Texas.",
+      "sources": [
+        {
+          "name": "Texas Department of Insurance, general lines life, accident and health application",
+          "url": "https://www.tdi.texas.gov/agent/general-life-apply.html",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "real-estate-salesperson",
+      "credential": "Real estate salesperson license",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "min_age": 18,
+      "criminal_record_policy": "review",
+      "as_of": "2026-10-12",
+      "source_note": "Fees differ by state ($80 NY, $95 FL, $249 TX, $499 CA), so no single US fee is given. All four served states set the minimum at 18. Every served state reviews the applicant's record individually.",
+      "sources": [
+        {
+          "name": "TREC fee schedule",
+          "url": "https://www.trec.texas.gov/agency-information/fee-schedule",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "TREC become a sales agent",
+          "url": "https://www.trec.texas.gov/become-licensed/sales-agent",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "Florida DBPR real estate requirements",
+          "url": "https://www2.myfloridalicense.com/re/documents/RESLRequirements.pdf",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "California DRE fees",
+          "url": "https://www.dre.ca.gov/licensees/fees.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "California DRE salesperson requirements",
+          "url": "https://www.dre.ca.gov/examinees/requirementssales.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "New York Department of State, real estate salesperson",
+          "url": "https://dos.ny.gov/real-estate-agent",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "real-estate-salesperson",
+      "credential": "Real estate salesperson license",
+      "credential_type": "license",
+      "jurisdiction": "CA",
+      "jurisdiction_name": "California",
+      "scope": "state",
+      "criminal_record_policy": "review",
+      "hours_required": 135,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.dre.ca.gov/examinees/requirementssales.html",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: DRE fee schedule lists $100 original exam, $350 original license, $49 fingerprint processing = $499 (dre.ca.gov/Licensees/Fees.html). Record: DRE says it may deny a license to an applicant convicted of a substantially related crime and requires every conviction to be disclosed (dre.ca.gov/Licensees/AvoidDenial.html and the DRE FAQ), so review. Course rule: dre.ca.gov/examinees/requirementssales.html (three college-level courses, each at least 45 hours).",
+      "sources": [
+        {
+          "name": "California DRE fees",
+          "url": "https://www.dre.ca.gov/licensees/fees.html",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "California DRE salesperson requirements",
+          "url": "https://www.dre.ca.gov/examinees/requirementssales.html",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "real-estate-salesperson",
+      "credential": "Real estate salesperson license",
+      "credential_type": "license",
+      "jurisdiction": "FL",
+      "jurisdiction_name": "Florida",
+      "scope": "state",
+      "fees_usd": 95,
+      "min_age": 18,
+      "criminal_record_policy": "review",
+      "hours_required": 63,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www2.myfloridalicense.com/re/documents/RESLRequirements.pdf",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: $11.00 application plus $46.75 initial licensure (Fla. Admin. Code 61J2-1.011(2)(b) and (3)(b), text current to 11/22/2022) plus $36.75 exam paid to Pearson VUE = $94.50, rounded to 95. Fingerprint vendor fees are set by the vendor and are not included; course price is not included. Age: Fla. Stat. 475.17(1)(a), at least 18 and a high school diploma. Record: 475.17(1)(a) requires being honest, truthful and trustworthy, decided by the Commission on each application, so review.",
+      "sources": [
+        {
+          "name": "Florida DBPR real estate requirements",
+          "url": "https://www2.myfloridalicense.com/re/documents/RESLRequirements.pdf",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "real-estate-salesperson",
+      "credential": "Real estate salesperson license",
+      "credential_type": "license",
+      "jurisdiction": "NY",
+      "jurisdiction_name": "New York",
+      "scope": "state",
+      "fees_usd": 80,
+      "min_age": 18,
+      "criminal_record_policy": "review",
+      "hours_required": 77,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://dos.ny.gov/real-estate-agent",
+      "as_of": "2026-10-15",
+      "source_note": "Fees: $65 initial application plus $15 written exam = $80, both on dos.ny.gov/real-estate-agent. Course price is not included. Age 18 on the same page. Record: the DOS page does not state a rule, and the licensing office decides case by case, Record: Real Property Law 440-a (nysenate.gov/legislation/laws/RPP/440-A) says a person convicted of a crime is not entitled to a license unless the Secretary finds the conviction is not a bar under Correction Law article 23-A, so review.",
+      "sources": [
+        {
+          "name": "New York Department of State, real estate salesperson",
+          "url": "https://dos.ny.gov/real-estate-agent",
+          "retrieved": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "credential_slug": "real-estate-salesperson",
+      "credential": "Real estate salesperson license",
+      "credential_type": "license",
+      "jurisdiction": "TX",
+      "jurisdiction_name": "Texas",
+      "scope": "state",
+      "criminal_record_policy": "review",
+      "hours_required": 180,
+      "hours_kind": "instruction",
+      "hours_source_url": "https://www.trec.texas.gov/become-licensed/sales-agent",
+      "as_of": "2026-10-15",
+      "source_note": "Age 18 and TREC honesty standard with optional fitness determination (same page).",
+      "sources": [
+        {
+          "name": "TREC fee schedule",
+          "url": "https://www.trec.texas.gov/agency-information/fee-schedule",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "TREC become a sales agent",
+          "url": "https://www.trec.texas.gov/become-licensed/sales-agent",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "respiratory-therapist",
+      "credential": "Respiratory therapist (NBRC RT exam)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 190,
+      "min_age": 18,
+      "as_of": "2026-10-11",
+      "source_note": "NBRC TMC exam: $190 for new applicants, $150 for repeat; applicant must be 18 or older with an associate degree from a CoARC-supported program. NBRC is replacing the TMC with a single exam at $360 and stops accepting TMC applications after Dec 15, 2026.",
+      "sources": [
+        {
+          "name": "NBRC Certified Respiratory Therapist",
+          "url": "https://www.nbrc.org/examinations/crt/",
+          "retrieved": "2026-10-11"
+        },
+        {
+          "name": "NBRC Registered Respiratory Therapist",
+          "url": "https://www.nbrc.org/examinations/rrt/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "securities-sie",
+      "credential": "Securities Industry Essentials (SIE) exam",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 100,
+      "min_age": 18,
+      "as_of": "2026-10-11",
+      "source_note": "FINRA SIE page: $100 exam fee, open to anyone aged 18 or older. Results stay valid for four years. Passing the SIE alone does not register an individual with a member firm.",
+      "sources": [
+        {
+          "name": "FINRA Securities Industry Essentials exam",
+          "url": "https://www.finra.org/registration-exams-ce/qualification-exams/securities-industry-essentials-exam",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "social-work-aswb",
+      "credential": "Social work license (ASWB exams)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 230,
+      "as_of": "2026-10-11",
+      "source_note": "ASWB exam fee: $230 for Associate, Bachelors or Masters, $260 for Advanced Generalist or Clinical. State board application fees are extra and vary. Apply to the state board first, then register with ASWB. Degree cost is not included.",
+      "sources": [
+        {
+          "name": "ASWB exam registration",
+          "url": "https://www.aswb.org/exam/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "credential_slug": "securities-series-63",
+      "credential": "Uniform securities agent state law (Series 63)",
+      "credential_type": "license",
+      "jurisdiction": "US",
+      "jurisdiction_name": "United States (default; states set their own rules)",
+      "scope": "default",
+      "fees_usd": 147,
+      "as_of": "2026-10-11",
+      "source_note": "NASAA exam FAQ and fee page list $147 for the Series 63. FINRA delivers the exam for NASAA. A state registration fee is extra.",
+      "sources": [
+        {
+          "name": "NASAA exam FAQs",
+          "url": "https://www.nasaa.org/exams/exam-faqs/",
+          "retrieved": "2026-10-11"
+        }
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "id": "wioa-individual-training-account",
+      "name": "WIOA training funds (Individual Training Accounts)",
+      "kind": "public-workforce-grant",
+      "who_it_can_help": "Adults and laid-off workers who the local workforce board decides it can serve. Local boards, not DecipherU, decide.",
+      "what_it_can_pay": "Tuition and fees at training programs that are on your state's eligible training provider list. In New York, state policy says a course must be on that list to be paid for with an Individual Training Account.",
+      "how_to_start": "Find your American Job Center, ask about WIOA training funds, and bring the program you have in mind so staff can check it against the state list.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "Being on the state list does not guarantee money. The New York advisory says funding depends on an assessment of your needs, and the course must train for an occupation the local board names as in demand.",
+        "Texas says a program also generally has to match a target occupation on the board's list.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "New York State Department of Labor, Technical Advisory 18-02.7 (2026-02-06)",
+        "url": "https://dol.ny.gov/system/files/documents/2026/02/technical-advisory-18-02.7.pdf"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "american-job-center",
+      "name": "American Job Center",
+      "kind": "service",
+      "who_it_can_help": "Anyone looking for work, training or career help. Veterans get priority referrals to jobs and training, per the Department of Labor.",
+      "what_it_can_pay": "Nothing directly. It is the front door to WIOA training funds and other help, and it can tell you what applies to you.",
+      "how_to_start": "Search by location on the CareerOneStop finder, then call before you visit to ask which services that center offers.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "CareerOneStop says to click a center's name to see which services it offers and to ask about the services you want before you visit.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "CareerOneStop, American Job Center Finder",
+        "url": "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "eligible-training-provider-lists",
+      "name": "State lists of WIOA-eligible training programs",
+      "kind": "directory",
+      "who_it_can_help": "Anyone checking whether a school or course can be paid for with WIOA funds.",
+      "what_it_can_pay": "Nothing directly. It shows which programs a state has approved for WIOA funding.",
+      "how_to_start": "Open the CareerOneStop finder, pick your state and it links to that state's own directory.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "CareerOneStop says to connect with your local American Job Center if you are not sure whether WIOA training services apply to you.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "CareerOneStop, WIOA-Eligible Training Program Finder",
+        "url": "https://www.careeronestop.org/LocalHelp/EmploymentAndTraining/find-WIOA-training-programs.aspx"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "state-ca-etpl",
+      "name": "California: Eligible Training Provider List",
+      "kind": "state-directory",
+      "who_it_can_help": "California adults and laid-off workers looking for WIOA-funded training.",
+      "what_it_can_pay": "The list shows training programs whose providers are funded through WIOA to help cover training costs.",
+      "how_to_start": "Use the Provider Search or Training and Education Programs search in CalJOBS, then talk to your local workforce office.",
+      "state_scope": [
+        "CA"
+      ],
+      "caveats": [
+        "The EDD page also notes that California Training Benefits depend on the training and provider being on the list.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "California EDD, Eligible Training Provider List",
+        "url": "https://edd.ca.gov/en/jobs_and_training/Eligible_Training_Provider_List/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "state-tx-etpl",
+      "name": "Texas: Eligible Training Providers and Workforce Solutions",
+      "kind": "state-directory",
+      "who_it_can_help": "Texas adults and laid-off workers served by one of the local workforce boards.",
+      "what_it_can_pay": "Individual Training Accounts that boards use to fund training, for programs on the statewide list.",
+      "how_to_start": "Search the statewide list at the Texas Workforce Commission, then contact your local Workforce Solutions office. Texas has 28 local boards that oversee more than 170 offices.",
+      "state_scope": [
+        "TX"
+      ],
+      "caveats": [
+        "TWC says being on the list does not guarantee a board will refer you to a program or that the program will get funds.",
+        "Programs other than registered apprenticeships generally must match a target occupation on a board's list.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "Texas Workforce Commission, Eligible Training Providers",
+        "url": "https://www.twc.texas.gov/agency/workforce-development-boards/eligible-training-providers"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "state-ny-etpl",
+      "name": "New York: Eligible Training Provider List",
+      "kind": "state-directory",
+      "who_it_can_help": "New York adults and laid-off workers served by a local workforce board.",
+      "what_it_can_pay": "WIOA training vouchers for courses on the list, per the Department of Labor's policy.",
+      "how_to_start": "Search by training provider, course offering or apprenticeship on the state site, then visit a New York State Career Center.",
+      "state_scope": [
+        "NY"
+      ],
+      "caveats": [
+        "The state site says being on the list does not guarantee that a particular person can enroll with WIOA money, and to contact a New York State Career Center to ask.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "New York State Department of Labor, Eligible Training Provider List",
+        "url": "https://apps.labor.ny.gov/ETPL_V2/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "state-ny-oswd",
+      "name": "New York: Office of Strategic Workforce Development grants",
+      "kind": "state-grant",
+      "who_it_can_help": "Mostly employers and training providers that apply for the grants. A person may benefit by joining a program one of them runs.",
+      "what_it_can_pay": "The office funds employer-driven workforce training programs. It is not a voucher you apply for as an individual.",
+      "how_to_start": "Read the office page for current grant rounds, then ask training providers whether they run a funded program.",
+      "state_scope": [
+        "NY"
+      ],
+      "caveats": [
+        "This is a grant to programs, not a benefit paid to individuals.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "Empire State Development, Office of Strategic Workforce Development",
+        "url": "https://esd.ny.gov/office-strategic-workforce-development"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "state-fl-careersource",
+      "name": "Florida: CareerSource local boards",
+      "kind": "state-directory",
+      "who_it_can_help": "Florida job seekers who want help from a local workforce board.",
+      "what_it_can_pay": "Local boards run WIOA services in Florida. The state list of approved training programs was not opened this session, so what a board can pay for is not checked yet.",
+      "how_to_start": "Use the CareerSource Florida local team search, or Employ Florida, and ask the board about training funds and its approved program list.",
+      "state_scope": [
+        "FL"
+      ],
+      "caveats": [
+        "The Florida Department of Commerce site that holds the state list blocked our automated reader, so its page is not cited here.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "CareerSource Florida, Career services",
+        "url": "https://careersourceflorida.com/career-services/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "gi-bill-tests-and-prep",
+      "name": "GI Bill: licensing and certification tests and prep courses",
+      "kind": "veteran-benefit",
+      "who_it_can_help": "Veterans and others who have GI Bill entitlement.",
+      "what_it_can_pay": "VA says it repays up to $2,000 per test for a job that requires a license or certification, and that you can use VA education benefits for approved prep courses. The cost comes out of your entitlement.",
+      "how_to_start": "Use VA's search tool to see whether your test is approved, then follow the repayment steps on the page.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "VA covers only tests approved for the GI Bill. If a test is not listed, VA says it may still be valid but not yet approved.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "VA, Licensing and certification tests and prep courses",
+        "url": "https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/licensing-and-certification-tests/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "gi-bill-approved-programs",
+      "name": "GI Bill education benefits",
+      "kind": "veteran-benefit",
+      "who_it_can_help": "Service members, veterans and some family members with GI Bill benefits.",
+      "what_it_can_pay": "VA lists tuition and expenses while training for a job, including for non-college programs and apprenticeships. The amount depends on the benefit and the school.",
+      "how_to_start": "Use the GI Bill Comparison Tool to check a school or program, then apply for education benefits on VA.gov.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "Each GI Bill benefit has its own rules on service and time limits that VA checks.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "VA, About GI Bill benefits",
+        "url": "https://www.va.gov/education/about-gi-bill-benefits/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "vre",
+      "name": "Veteran Readiness and Employment (VR&E, Chapter 31)",
+      "kind": "veteran-benefit",
+      "who_it_can_help": "Veterans and service members with a service-connected disability that limits their ability to work, per VA.",
+      "what_it_can_pay": "Employment support and education or training services that a VA counselor decides are needed.",
+      "how_to_start": "Apply on VA.gov. VA then schedules an evaluation with a Vocational Rehabilitation Counselor.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "VA lists a service-connected disability rating of at least 10 percent and no dishonorable discharge as requirements, and a counselor decides entitlement.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "VA, Veteran Readiness and Employment",
+        "url": "https://www.va.gov/careers-employment/vocational-rehabilitation/eligibility/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "pell-grant",
+      "name": "Federal Pell Grant",
+      "kind": "federal-grant",
+      "who_it_can_help": "Undergraduate students with financial need who have not earned a bachelor's, graduate or professional degree, per Federal Student Aid.",
+      "what_it_can_pay": "Costs at an eligible school. The maximum for the 2026-27 award year is $7,395. The amount depends on your Student Aid Index, the school's cost of attendance and your enrollment.",
+      "how_to_start": "Submit the FAFSA. Schools use it to decide whether to offer a grant and how much.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "The program has to be at a school that takes federal aid, so ask the school whether it does for the course you want.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "Federal Student Aid, Federal Pell Grants",
+        "url": "https://studentaid.gov/understand-aid/types/grants/pell"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "workforce-pell",
+      "name": "Workforce Pell Grant (short programs)",
+      "kind": "federal-grant",
+      "who_it_can_help": "Students with financial need in a short program that the state governor and the Department of Education have approved. A bachelor's degree does not rule you out, per the Department.",
+      "what_it_can_pay": "Tuition for approved short-term programs of about 8 to 15 weeks. The Education Department's August 4, 2026 release describes programs of 8 to 15 weeks.",
+      "how_to_start": "Ask the school whether the specific program is an approved Workforce Pell program, then complete the FAFSA.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "Statutory effective date is July 1, 2026. Schools could apply for program approval starting July 1, 2026, and the first approval was announced August 4, 2026, so few programs may be approved yet.",
+        "Each state governor identifies which programs fit in-demand fields, so a program that qualifies in one state may not in another.",
+        "Clock-hour limits and the exact outcome benchmarks were not checked yet.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "U.S. Department of Education, final rule press release (2026-05-18)",
+        "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-issues-final-rule-create-new-workforce-pell-grant-program"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "employer-tuition-assistance",
+      "name": "Employer tuition assistance (IRS Section 127)",
+      "kind": "employer",
+      "who_it_can_help": "Employees whose employer offers an educational assistance program.",
+      "what_it_can_pay": "Education costs your employer pays, such as tuition, books, equipment, fees and supplies. The IRS says an employer can exclude up to $5,250 per employee each year from wages under a qualifying program.",
+      "how_to_start": "Ask your human resources team whether the company has an educational assistance program and what it covers.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "The IRS requires the program to meet Section 127 rules. Whether a company offers one, and what it pays, is up to the company.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "IRS, Publication 15-B (2026), Employer's Tax Guide to Fringe Benefits",
+        "url": "https://www.irs.gov/publications/p15b"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "lifetime-learning-credit",
+      "name": "Lifetime Learning Credit",
+      "kind": "tax-credit",
+      "who_it_can_help": "Taxpayers paying for courses to get or improve job skills, with income under the limit.",
+      "what_it_can_pay": "A credit of up to $2,000 per return, per the IRS. It can lower your tax to zero but the excess is not refunded.",
+      "how_to_start": "Keep your tuition statement and ask a tax preparer, or read IRS Publication 970, before you file.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "Publication 970 for 2025 lists a phase-out and a limit of $90,000 income for single filers and $180,000 for joint filers. Check the current year's figures.",
+        "The school must be an eligible educational institution. Exam fees alone are not tuition.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "IRS, Publication 970 (2025), Tax Benefits for Education",
+        "url": "https://www.irs.gov/publications/p970"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "spouseworks-scholarship",
+      "name": "SpouseWorks Scholarship (formerly MyCAA)",
+      "kind": "military-spouse",
+      "who_it_can_help": "Spouses of active-duty, National Guard and reserve service members under qualifying Title 10 orders, across all ranks, per Military OneSource.",
+      "what_it_can_pay": "Up to $4,000 toward a license, certification or associate degree, or continuing education to keep a license or certification needed for work.",
+      "how_to_start": "Create an account on the SpouseWorks site, which checks eligibility, and call Military OneSource to talk to a career coach.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "The program was called MyCAA and still appears under that name in many places.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "Military OneSource, SpouseWorks Scholarship (formerly MyCAA)",
+        "url": "https://www.militaryonesource.mil/benefits/spouseworks-scholarship/"
+      },
+      "as_of": "2026-10-12"
+    },
+    {
+      "id": "snap-et",
+      "name": "SNAP Employment and Training",
+      "kind": "public-workforce-grant",
+      "who_it_can_help": "People who get SNAP benefits, where their state runs a program they can join.",
+      "what_it_can_pay": "Help finding a job, training for a new career or moving up, with support such as case management, transportation help, childcare, books and supplies, per USDA.",
+      "how_to_start": "Pick your state on the USDA page to find your state's SNAP Employment and Training program, or ask your SNAP office.",
+      "state_scope": [
+        "US"
+      ],
+      "caveats": [
+        "Every state runs its own program with its own providers and offerings. USDA does not list what any one state pays for on this page.",
+        "Eligibility is decided by the program, not by DecipherU. Nothing on this page is a promise of approval."
+      ],
+      "source": {
+        "name": "USDA Food and Nutrition Administration, SNAP Employment and Training",
+        "url": "https://www.fna.usda.gov/snap-et"
+      },
+      "as_of": "2026-10-12"
+    }
+  ]
+}
